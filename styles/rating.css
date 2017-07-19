@@ -1,0 +1,84 @@
+
+.rating-view .stars img {
+	float: left;
+	border-width: 0;
+}
+
+.rating-view .stars a {
+	border-width: 0;
+}
+
+.rating-view .stars .total {
+	padding-left: 5px;
+	float: left;
+}
+
+.allstars {
+	float: left;
+}
+
+div.breakdown {
+	width: 14px;
+	height: 13px;
+	margin: 3px 11px 0px 4px;
+	background-image: url(../rating/tooltip_button.gif);
+	float: left;
+	position: relative;
+	z-index: 3;
+}
+
+div.breakdown:hover {
+	z-index: 4;
+    cursor: pointer;        
+}
+
+div.breakdown ul.chartlist {
+	position: absolute;
+	top: 11px;
+	left: 0;
+	z-index: 101;
+	padding: 5px 10px;
+	margin: 0;
+	border: 1px solid #dedede;
+	display: none;
+	width: 15.75em;
+	background: #fff;
+}
+
+div.breakdown:hover ul.chartlist {
+	display: block;
+}
+
+div.breakdown .chartlist li {
+	list-style: none;
+	list-style-image: none;
+	position: relative;
+	margin-bottom: 3px;
+	padding-left: 0;
+	background-image: none;
+}
+
+div.breakdown .star-count {
+	width: 4em;
+}
+
+div.breakdown .chart-bar-container {
+	width: 100px;
+	height: 1.2em; 
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 4.5em;
+}
+
+div.breakdown .chart-bar {
+	display: block;
+	background: url(../img/chart-bar-bg.png) left center repeat-x;
+	text-indent: -9999px;
+	position: absolute;
+}
+
+div.breakdown .rating-count {
+	position: absolute;
+	right: 0;
+}

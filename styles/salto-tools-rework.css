@@ -1,0 +1,671 @@
+/* -------------- TOOL LAYOUT -------------- */
+
+.tool-content {
+	margin: 30px 20px 20px;
+	padding: 0 10px;
+}
+
+.content-twocol {
+	background: url(../img/main-col-bg.png) repeat-y 10px top;
+}
+
+.tool-content-detail {
+	float: left;
+}
+
+.tool-marginalia-detail {
+	width: 380px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.main-col {
+	float: left;
+	width: 500px;
+	margin-right: 80px;
+}
+
+.aside {
+	float: left;
+	width: 320px;	
+	margin-bottom: 33px;
+}
+
+.newsletter-module h3 {
+	margin-top: 0.5em;
+}
+
+.tool-breadcrumb-item {
+    float: left;
+    margin-right: 2px;
+}
+
+.tool-breadcrumb-item .tool-breadcrumb-item-text {
+    margin-right: 2px;
+}
+
+h2,
+.h2 {
+	font-weight: normal;
+}
+
+h3,
+.h3 {
+	line-height: 1.3;
+}
+
+/* TOOLBAR */
+
+.quick-login {
+	text-align: right;
+}
+
+
+/* -------------- MySALTO --------------- */
+
+/* Login */
+
+#login {
+	margin-top: 4.846em;
+	margin-bottom: 1em;
+}
+
+/* alte Formulare, kein OOCSS möglich; daher .round-button statisch rein */
+#login .button,
+#signup_form .button,
+#forgot_password .button {
+	background: -moz-linear-gradient(center top , #FFFFFF 0%, #E5E5E5 100%) repeat scroll 0 0 transparent;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+}
+
+.register-link {
+	margin-right: 1em;
+	padding-right: 1em;
+	border-right: 1px solid #eee;
+}
+
+/* Dashboard */
+
+.user-profile {
+	margin-top: 44px;
+}
+
+.running-text .profile-module h2,
+.running-text .tools-module h2,
+.running-text .profile-module h3,
+.running-text .profile-module ul {
+	margin: 0.5em 0 0.25em;
+}
+
+.user-meta {
+	margin-bottom: 2em;
+}
+
+.profile-module {
+	position: relative;
+	border-top: 3px solid #eee;
+	padding: 20px 0 24px;
+}
+
+.profile-module .buttons {
+	position: absolute;
+	right: 0;
+	bottom: 22px;
+}
+
+.buttons .delete {
+	display: block;
+	padding: 0.25em 0;
+	text-align: right;
+}
+
+.status {
+	margin-top: 22px;
+}
+
+.profile-module form,
+.notifications-module form {
+	border: none;
+}
+
+
+/* Aside */
+
+.tools-module {
+	margin-top: 55px;
+	padding-top: 20px;
+	border-top: 3px solid #eee;
+}
+
+.notifications-module {
+    background-color: #fdfde9;
+    border: 1px dashed #ccd527;
+    padding: 11px 10px 0;
+    margin-top: 33px;
+}
+
+.notifications-widget-container {
+    padding-bottom: 17.5px;
+    border-bottom: 1px dashed #ccd527;
+    margin-bottom: 17.5px;
+}
+
+.notifications-widget-container:last-child {
+    border: 0;
+    margin-bottom: 0;
+}
+
+.notifications-widget-container > div {
+    padding-left: 24px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.notifications-widget-container:last-child > div:last-child {
+    margin-top: 10px;
+}
+
+.notifications-widget-container:last-child > div:last-child label,
+.notifications-widget-container:last-child > div:last-child select {
+    width: 244px;
+    margin-left: -24px;
+}
+
+.notifications-widget-container form {
+    margin-bottom: 0;
+}
+
+.notifications-widget-container input[type=checkbox] {
+    position: absolute;
+    left:0;
+    top: 1px;
+}
+
+.notifications-widget-container select {
+    margin-top: 5px;
+    margin-left: -1px;
+}
+
+.notifications-widget-container label {
+    display: inline;
+}
+
+h2.notifications-module-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h3.notifications-module-heading {
+    margin-bottom: 10px;
+}
+
+.notifications-module .bulleted li {
+    background: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.running-text .notifications-module h3 {
+    margin-top: 0;
+}
+
+
+
+/* endof NEU ------------------------------------------------------------------------------------------- */
+
+
+.form-component-row {
+	margin-bottom: 11px;
+	clear: left;
+}
+
+
+/* SUCHERGEBNIS */
+
+.search-results-list {
+	float: left;
+	width: 100%;
+}
+
+.search-result {
+	margin-bottom: 33px;
+}
+
+.search-result h2 {
+	margin-top: 0;
+	margin-bottom: 0.4583em; 	/* 11px */
+}
+
+.search-result .meta {
+	float: left;
+	width: 230px;
+	margin-right: 20px;
+	margin-bottom: 22px;
+}
+
+.search-result .summary {
+	float: left;
+	width: 240px;
+}
+
+
+/* Suchparameter Anzeige */
+
+.collapsed-search-parameters {
+	margin-bottom: 11px;	
+	padding-bottom: 11px;
+	border-bottom: 1px solid #eee;
+}
+
+.search-parameters-list {
+	margin: 11px 0 22px;
+}
+
+.fx-collapsed-form-actions {
+	margin-bottom: 11px;
+}
+
+
+.search-parameters {
+	margin-left: -10px;
+	padding: 8px 10px 14px;
+	background: #f3f3f3;
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-khtml-border-radius: 7px;
+}
+
+.search-parameters .search-parameter-values {
+	color: #222;
+	display: block;
+	font-size: 0.9231em;
+}
+
+.search-parameters .search-parameter {
+	margin-bottom: 0.5em;
+}
+
+.search-results-navigation {
+	clear: both;
+	margin-bottom: 22px;
+	padding: 5px 10px 6px;
+	border: 1px solid #e5e5e5;
+	background-color: #fff;
+	font-weight: bold;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-khtml-border-radius: 7px;
+}
+
+.tile .search-results-navigation {
+	background-color: #f5f5f5;
+}
+
+.search-results-info {
+	float: left;
+}
+
+.search-results-navigation-pager {
+	text-align: right;
+}
+
+.refine-search-button {
+	width: 146px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.clear-filters {
+	font-size: 0.8461em;
+}
+
+.clear-filters-button {
+	text-decoration: underline;
+}
+
+
+/* SUCHFORMULAR */
+
+/* Forms */
+
+.create-component {
+	float: left;
+	width: 98%;
+}
+
+.create-component label {
+	color: #555;
+}
+
+.button-create-component {
+	float: left;
+	margin-top: 0.25em;
+}
+
+.create-component select {
+	float: left;
+	margin-right: 24px;
+}
+
+.fieldtype-MultipleCheckboxField label {
+	margin-bottom: 0;
+}
+
+.fieldtype-MultipleCheckboxField select,
+.fieldtype-MultipleCheckboxField .button-create-component {
+	margin-top: 0.5em;
+}
+
+.components {
+	margin-bottom: 1.5em;
+	float: left;
+	width: 100%;
+}
+
+.component {
+	clear: left;
+	float: left;
+	width: 100%;
+	color: #555;
+	font-size: 0.8461em;
+}
+
+.form-component-add-row {
+	margin-top: 11px;
+}
+
+.form-component-toggle-row {
+	margin-bottom: 11px;
+}
+
+.button-icon {
+	margin-right: 10px;
+	height: 18px;
+	display: block;
+	float: left;
+	border: none;
+	padding-left: 22px;
+	padding-right: 5px;
+	font-size: 0.8461em;
+	text-transform: uppercase;
+	color: #555;
+	line-height: 18px;
+}
+
+.button-icon:hover {
+	cursor: pointer;
+}
+
+.button-icon-large {
+	width: 30px;
+	height: 30px;
+}
+
+
+/* Cancel */
+
+.button-cancel-component {
+	margin-top: 4px;
+	background: url(../img/icons/twg/delete.png) no-repeat left center;	
+}
+
+.button-cancel-component:hover,
+.button-cancel-component:focus {
+	background-image: url(../img/icons/twg/delete-hover.png);
+	background-color: #ad2a26;
+	color: #fff;
+}
+
+.button-uncancel-component {
+	margin-top: 4px;
+	background: url(../img/icons/twg/delete.png) no-repeat left center;
+}
+
+.button-uncancel-component:hover,
+.button-uncancel-component:focus {
+	background-image: url(../img/icons/twg/delete-hover.png);
+	background-color: #ad2a26;
+	color: #fff;
+}
+
+/* Delete */
+
+.button-delete-component {
+	margin-top: 4px;
+	background: url(../img/icons/twg/delete.png) no-repeat left center;
+}
+
+.button-delete-component:hover,
+.button-delete-component:focus {
+	background-image: url(../img/icons/twg/delete-hover.png);
+	background-color: #ad2a26;
+	color: #fff;
+}
+
+.button-delete-component-large {
+	background-image: url(../img/icons/twg/delete-large.png);	
+}
+
+.button-delete-component-large:hover,
+.button-delete-component-large:focus {
+	background-image: url(../img/icons/twg/delete-large-hover.png);
+}
+
+.button-delete-x-component {
+	background-image: url(../img/icon-delete-x.png);
+}
+
+.button-delete-x-component:hover,
+.button-delete-x-component:focus {
+	background-image: url(../img/icon-delete-x-hover.png);
+}
+
+/* Edit */
+
+.button-edit-component {
+	margin-top: 4px; 
+	background: url(../img/icons/twg/edit.png) no-repeat left center;	
+}
+
+.button-edit-component:hover,
+.button-edit-component:focus {
+	background-image: url(../img/icons/twg/edit-hover.png);
+	background-color: #932382;
+	color: #fff;
+}
+
+.button-edit-component-large {
+	background: url(../img/icons/twg/edit-large.png) no-repeat center center;	
+}
+
+.button-edit-component-large:hover,
+.button-edit-component-large:focus {
+	background-image: url(../img/icons/twg/edit-large-hover.png);
+}
+
+/* Edit-Buttons serving as widgets */
+.fx-tca-planningboard-subscription-for-updates-button-placeholder:hover,
+.fx-tca-planningboard-subscription-for-updates-button-placeholder:focus {
+	background-image: url(../img/icons/twg/edit.png);
+	background-color: #ddd;
+	cursor: wait;
+}
+
+/* Widgets for subscription/digest */
+.fx-tca-planningboard-subscription-checkbox:disabled:hover,
+.fx-tca-planningboard-subscription-digest-select:disabled:hover {
+	cursor: wait;
+}
+
+/* View */
+
+.button-view-component {
+	margin-top: 4px;
+	background: url(../img/icons/twg/view.png) no-repeat left center;	
+}
+
+.button-view-component:hover,
+.button-view-component:focus {
+	background-image: url(../img/icons/twg/view-hover.png);
+	background-color: #932382;
+	color: #fff;
+}
+
+.button-view-component-large {
+	background: url(../img/icons/twg/view-large.png) no-repeat center center;	
+}
+
+.button-view-component-large:hover,
+.button-view-component-large:focus {
+	background-image: url(../img/icons/twg/view-large-hover.png);
+}
+
+form .fieldname-psd_tags__components,
+form .fieldname-psd_downloads__components {
+	margin-bottom: 4px;
+}
+
+
+/* Short-description specific */
+
+.short-description {
+	float: left;
+	font-family: SansationNormal, "Trebuchet MS", "GillSans", Arial, sans-serif;
+	font-size: 22px;
+	line-height: 1.3;
+	color: #777;
+	font-style: italic;
+}
+
+
+/* Tags specific */
+
+.tag {
+	padding-left: 17px;
+	background: url(../img/icons/twg/tag.png) no-repeat left center;
+	font-weight: bold;
+	color: #555;
+}
+
+
+/* Downloads specific */
+
+form .fieldname-psd_downloads__components .component {
+	padding-left: 17px;
+	background: url(../img/icons/twg/document-blank.png) no-repeat left center;
+}
+
+
+/* spezielle Breiten f�r Datumsfelder */
+
+.groupname-psd_search_period input {
+	width: 6em;
+	margin-right: 0.5em;
+}
+
+.groupname-trainings_calender_search_form_activity_date_between select,
+.groupname-toolbox_search_form_date_of_entry_between select {
+	width: 8em;
+	margin-right: 0.5em;
+}
+
+
+
+/* LIST NAVIGATION: pager und sort */
+
+.search-result-list-navigation {
+	margin-bottom: 22px;
+}
+
+.pagination {
+	list-style: none;
+	margin-left: 0;
+	margin-bottom: 33px;
+	float: left;
+	margin-right: 5%;
+}
+
+.pagination li {
+	float: left;
+	margin-right: 5px;
+}
+
+.pagination .entry {
+	padding: 3px 5px;
+	display: block;
+	line-height: 1;
+}
+
+.pagination span.entry {
+	padding: 4px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #932382;
+}
+
+.pagination .pagenr {
+	color:  #932382;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.pagination .previous-page {
+	padding-left: 0;
+	margin-right: 15px;
+}
+
+.pagination .next-page {
+	margin-left: 15px;
+}
+
+.list-sorting-navigation {
+	float: right;
+}
+
+
+/* SUBMISSIONS: Application list (ETC), Answer list (Online Forms) */
+.submission-list .country,
+.submission-list .priority {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right: 10px;
+}
+
+.submission-list .country {
+    width: 100px;
+}
+
+.submission-list .priority {
+    width: 130px;
+}
+
+
+/* Erweiterte Suchfunktion im TCA-Planningboard */
+
+.customSearchPrimaryAction .button {
+	width: 100%;
+	margin: 0;
+}
+
+.customSearchRow {
+	margin-top: 11px;
+	float: left;
+}
+
+.customSearchRow .button {
+	margin: 0;
+}
+
+.customSearchSecondaryAction {
+	margin-top: 11px;
+	float: left;
+}
+
+

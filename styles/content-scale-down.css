@@ -1,0 +1,22 @@
+
+.content-scale-down {
+	position: relative;
+	cursor: pointer;
+	padding-top: 46px;
+}
+
+.content-scale-down .magnifier {
+	position: absolute;
+	height: 100%;
+	width: 500px;
+	top: 0;
+	left: 0;
+	background: url(../img/scale-down-helptext.png) left top no-repeat;
+	z-index: 10;
+	border: 1px solid #555;
+}
+
+.content-scale-down .magnifier:hover {
+	background-image: url(../img/scale-down-helptext-hover.png);
+	border-color: #932382;
+}

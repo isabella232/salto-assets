@@ -1,0 +1,49 @@
+
+.flash {
+	background: #d5e6ff url(../img/icon-notice.png) 15px 15px no-repeat; 
+	padding: 15px;
+	padding-left: 58px;
+	margin: 2em 0;
+	min-height: 32px;
+	color: #333;
+}
+
+.flash-no-margin {
+    margin: 0;
+}
+
+.flash h2 {
+	margin-top: 0;
+	border-top-width: 0;
+	color: #555;
+}
+
+.flash p {
+	margin-top: 0;
+}
+
+.flash.success, .flash-success {
+	background-image: url(../img/icon-success.png);
+	background-color: #d9ffe1; 
+}
+
+.flash.failure, .flash-failure {
+	background-image: url(../img/icon-error.png);
+	background-color: #ffd5d7;
+}
+
+.flash.notice, .flash-notice {
+	background-image: url(../img/icon-notice.png);
+}
+
+.flash.failure ul, .flash-failure ul {
+	list-style: none;
+	margin-left: 0;
+	font-size: 1em;
+	margin-top: 1em;
+}
+
+.flash.failure li, .flash-failure li {
+	color: #555;
+	font-weight: bold;
+}

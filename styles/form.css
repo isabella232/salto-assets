@@ -1,0 +1,281 @@
+
+form {
+	width: 100%;
+}
+
+form .row {
+	margin-bottom: 1.5em;
+	padding: 6px 0 11px;
+}
+
+form .row .row {
+	margin-bottom: 0;
+}
+
+.row-contains-helptext fieldset {
+	width: 320px;
+	float: left;
+}
+
+
+/* FIELDSET / LEGEND  */
+
+.fieldset {
+	padding-top: 1em;
+	padding-right: 10px;
+/*	margin-bottom: 1em;		Testweise
+	padding-bottom: 1em; 	ohne Abstände	*/
+	padding-left: 10px;
+	border-top: 1px solid #eee;
+	float: left;
+	width: 95%;
+}
+
+.row + .fieldset {
+	margin-top: 2em;
+} 
+
+legend {
+	display: block;
+	font-size: 1.3847em;		/* 16px */
+	line-height: 1.2222;		/* 22px */ 
+	color: #978e00;
+	top: -2px;
+	padding-bottom: 0.5em;
+}
+
+.fontface legend {
+	font-family: SansationRegular;
+	top: 0;
+}
+
+
+/* LABEL */
+
+label {
+	display: block;
+	line-height: 1.3;
+	width: 100px;
+	float: left;
+	padding-top: 0.25em;
+	margin-bottom: 0.5em;
+	color: #333;
+}
+
+.top-aligned-labels label {
+	width: 100%;
+}
+
+.top-aligned-labels .group label {
+	width: 100px;
+}
+
+
+/* FIELDS */
+
+.field {
+	margin-left: 20px;
+	float: left;
+	display: inline;
+}
+
+.top-aligned-labels .field {
+	width: 320px;
+	margin-left: 0 !important;
+}
+
+
+/* INPUT-FELDER */
+
+/* Schrift für textarea zunächst resetten */
+
+textarea {
+	font-family: Verdana, "GillSans", sans-serif;
+	font-size: 1em;
+}
+
+input.text, 
+input.password,
+input.url,
+select, 
+textarea { 
+	border: 1px solid #bbb;
+	background: #fefefe;
+	width: 220px;
+	font-size: 0.8461em;
+	color: #333;
+}
+
+/* HELPTEXTE */
+
+.helptext {
+	float: left;
+	width: 100px;
+	display: inline;
+	margin-left: 20px;
+	font-size: 0.8461em;	/* 11px */
+	color: #555;
+}
+
+.top-aligned-labels .helptext {
+	width: 135px;
+}
+
+.helptext .counter {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.helptext .counter-minus {
+	color: red;
+}
+
+.date_day { width: 4em; margin-right: 5px ;}
+.date_month { width: 10em; margin-right: 5px; }
+.date_year { width: 7em; }
+
+
+
+/* SUBMIT / CANCEL */
+
+form .groupname-submit {
+	border-bottom-width: 0;
+}
+
+.groupname-submit label {
+	display: none;
+}
+
+.groupname-submit .field {
+	margin-left: 0;
+}
+
+.groupname-submit .button {
+	float: left;
+	margin-right: 1em;
+	font-size: 1em;		/* 16px */
+}
+
+
+
+/* BUTTONS */
+
+.button {
+	border: 1px solid #bbb;
+	text-shadow: 1px 1px 1px #fff;
+	font-weight: normal;
+	color: #932382;
+	padding: 1px 8px 3px 8px;
+	text-align: center;
+	background-color: #f5f5f5;
+	text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+	border-color: #932382;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+
+/* spezielle Buttons */
+
+.small-button {
+	font-size: 0.8461em;
+	line-height: 1.1;
+	padding: 4px 6px 6px;
+}
+
+.large-button {
+	display: block;
+	padding: 5px 6px 6px 6px;
+	margin-bottom: 11px;
+}
+
+.round-button {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	background: #ffffff; /* old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* ie */
+}
+
+.square-button {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	background: url(../img/modal-box-head-bg.png) no-repeat left bottom;
+}
+
+.callforaction {
+	display: block;
+	width: 200px;
+	float: left;
+	line-height: 1.2;
+	font-family: SansationRegular;
+	font-size: 1.3em;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+
+.callforaction .call {
+	display: block;
+	font-size: 1.5em;	
+}
+
+.callforaction-divider {
+	float: left;
+	display: inline;
+	margin: 15px 20px;
+	font-size: 1.5em;
+	font-style: italic;
+	color: #555;
+}
+
+.active-state-button {
+	background: #932382;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#932382', endColorstr='#932382',GradientType=0 ); /* ie */
+	border-color: #932382;
+	text-shadow: none;
+	color: #f5f5f5;
+	font-weight: normal;
+}
+
+.active-state-button:hover,
+.active-state-button:focus {
+	cursor: auto;
+}
+
+.active-state-button:active {
+	top: 0;
+}
+
+
+/* Button Bar */
+
+.button-bar {
+}
+
+.button-bar li,
+.button-bar .button {
+	float: left;
+	margin-right: 3px;
+}
+
+
+/* Newsletter subscription fixes */
+
+.groupname-newsletter_registration_form_subscriptions .field label {
+	width: 340px;
+}

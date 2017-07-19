@@ -1,0 +1,460 @@
+
+/*
+ * The fonts included are copyrighted by the vendor listed below.
+ * @vendor:     Bernd Montag
+ * @licenseurl: http://www.fontsquirrel.com/license/Sansation
+ */
+
+@font-face {
+    font-family: 'SansationBold';
+    src: url('/static/common/type/Sansation_Bold-webfont.eot');
+    src: url('/static/common/type/Sansation_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/static/common/type/Sansation_Bold-webfont.woff') format('woff'),
+    url('/static/common/type/Sansation_Bold-webfont.ttf') format('truetype'),
+    url('/static/common/type/Sansation_Bold-webfont.svg#sansationbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    -moz-font-feature-settings:"liga" 0;
+    -moz-font-feature-settings:"liga=0"
+    -ms-font-feature-settings:"liga" 0;
+    -o-font-feature-settings:"liga" 0;
+    -webkit-font-feature-settings:"liga" 0;
+    font-feature-settings:"liga" 0;
+}
+
+@font-face {
+    font-family: 'SansationLight';
+    src: url('/static/common/type/Sansation_Light-webfont.eot');
+    src: url('/static/common/type/Sansation_Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/static/common/type/Sansation_Light-webfont.woff') format('woff'),
+    url('/static/common/type/Sansation_Light-webfont.ttf') format('truetype'),
+    url('/static/common/type/Sansation_Light-webfont.svg#sansation_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    -moz-font-feature-settings:"liga" 0;
+    -moz-font-feature-settings:"liga=0"
+    -ms-font-feature-settings:"liga" 0;
+    -o-font-feature-settings:"liga" 0;
+    -webkit-font-feature-settings:"liga" 0;
+    font-feature-settings:"liga" 0;
+}
+
+@font-face {
+    font-family: 'SansationRegular';
+    src: url('/static/common/type/Sansation_Regular-webfont.eot');
+    src: url('/static/common/type/Sansation_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/static/common/type/Sansation_Regular-webfont.woff') format('woff'),
+    url('/static/common/type/Sansation_Regular-webfont.ttf') format('truetype'),
+    url('/static/common/type/Sansation_Regular-webfont.svg#sansationregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    -moz-font-feature-settings:"liga" 0;
+    -moz-font-feature-settings:"liga=0"
+    -ms-font-feature-settings:"liga" 0;
+    -o-font-feature-settings:"liga" 0;
+    -webkit-font-feature-settings:"liga" 0;
+    font-feature-settings:"liga" 0;
+}
+
+.fontface .sansation-regular {
+    font-family: SansationRegular;
+}
+
+
+
+/* End of font embedding */
+
+
+body {
+	font-family: Verdana, "GillSans", sans-serif;
+	font-size: 81.25%;			/* 13px */
+	line-height: 1.5385;		/* 20px */			
+	color: #222; 
+}
+
+h1, h2
+.document-teaser {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	position: relative;
+}
+
+h1 {
+	font-size: 2.5385em;		/* 33px / 13px */
+	line-height: 1.33333;		/* 44px / 33px */
+	color: #978e00;
+	top: -1px;
+	margin-bottom: 0.666666666666667em;		/* 22px / 33px */
+}
+
+.fontface h1 {
+	font-family: SansationRegular;
+	font-weight: normal;
+	top: 0;
+}
+
+h1 + .byline {
+    margin-top: -11px;
+    margin-bottom: 33px;
+}
+
+.document-teaser {
+	font-weight: bold;
+}
+
+.fontface .document-teaser,
+.fontface .sansation-bold {
+	font-family: SansationBold;
+	font-weight: normal !important;
+}
+
+h2 {
+	font-size: 1.8462em;		/* 24px */
+	line-height: 1.1667;		/* 28px */
+	color: #333;
+	top: -2px;
+	font-weight: normal;
+}
+
+.running-text h2,
+h2.running-text {
+	margin-top: 1.583333333333333em;		/* 38px */
+	margin-bottom: 0.4583em; 	/* 11px */
+}
+
+.fontface h2 {
+	font-family: SansationRegular;
+	top: 0;
+}
+
+h1 + h2 {
+	margin-top: 0 !important;
+	margin-bottom: 1em !important;
+}
+
+h3, .h3 {
+	font-size: 1.3847em;		/* 18px */
+	line-height: 1.2222;		/* 22px */ 
+	color: #333;
+	top: -2px;
+	font-weight: normal;
+}
+
+.running-text h3,
+.running-text .h3 {
+	margin-bottom: 0.6111em; 	/* 11px */
+}
+
+.running-text h3 {
+	margin-top: 1.8333em;		/* 34px */
+}
+
+/* keine top-margin auf erster headline im Content, die auf einen site-header folgt (IE7+ kompatibel): */
+.site-heading + .site-content .running-text > h2:first-child,
+.site-heading + .site-content .running-text > h3:first-child {
+    margin-top: 0;
+}
+
+.running-text h2 + h3 {
+	margin-top: 1.2222em; 		/* 22px */
+}
+
+h4, .h4 {
+	font-size: 1.153846153846154em;		/* 15px / 13px */
+	line-height: 1.466666666666667;		/* 22px / 15px */
+	color: #555;
+	font-weight: bold;
+}
+
+.running-text h4,
+.running-text .h4 {
+	margin-bottom: 0.7857em;	/* 11px */
+}
+
+.h5 {
+	font-size: 1.153846153846154em;		/* 15px / 13px */
+	line-height: 1.466666666666667;		/* 22px / 15px */
+}
+
+.h6 {
+    font-size: 1em;		    /* 13px */
+    line-height: 1.5385;    /* 20px / 13px */
+}
+
+.running-text p,
+.running-text ul,
+.running-text ol,
+.running-text form,
+.running-text table,
+.running-textblockquote {
+	margin-bottom: 1.3847em;	/* 18px */
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+.link {
+	color: #932382;
+	text-decoration: underline;
+}
+
+.fakelink {
+	color: #978e00;
+	text-decoration: none;
+}
+
+.fakelink:hover {
+	color: #932382;
+}
+
+.secondary-link {
+	text-decoration: underline;
+}
+
+.short-url {
+    padding-left: 24px;
+    background: url(../img/icon_link.png) no-repeat left top;
+    display: inline-block;
+}
+
+a.download-helper {
+	display: block;
+	padding: 0.25em 0 0.25em 22px;
+	background-image: url(../img/filetypes/arrow_down_modfd.png);
+	background-position: left 0.25em;
+	background-repeat: no-repeat;
+}
+
+a.wfd-filetype-pdf { background-image: url(../img/filetypes/page_white_acrobat.png); } 
+a.wfd-filetype-doc { background-image: url(../img/filetypes/page_word.png); } 
+a.wfd-filetype-zip { background-image: url(../img/filetypes/page_white_compressed.png); }
+a.wfd-filetype-xls { background-image: url(../img/filetypes/page_white_excel.png); }
+a.wfd-filetype-archive { background-image: url(../img/filetypes/page_white_compressed.png); }
+a.wfd-filetype-ppt { background-image: url(../img/filetypes/page_white_powerpoint.png); }
+a.wfd-filetype-img { background-image: url(../img/filetypes/picture.png); }
+a.wfd-filetype-jpg { background-image: url(../img/filetypes/picture.png); }
+a.wfd-filetype-png { background-image: url(../img/filetypes/picture.png); }
+a.wfd-filetype-gif { background-image: url(../img/filetypes/picture.png); }
+a.wfd-filetype-tif { background-image: url(../img/filetypes/picture.png); }
+a.wfd-filetype-flash { background-image: url(../img/filetypes/flash.png); }
+
+.link:hover,
+.link:focus,
+a.download-helper:hover,
+a.download-helper:focus {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+ol, ul {
+	list-style-position: outside;
+}
+
+ol.numbered {
+	list-style-type: decimal;
+	margin-left: 2.5em;
+}
+
+ol.numbered li {
+	margin-bottom: 0.75em;
+}
+
+ul.bulleted li {
+	background: url(../img/ul-li-bg.png) no-repeat left 0.55em;
+	padding-left: 14px;
+	margin-top: 0.2em;
+	margin-left: 7px;
+	margin-bottom: 0.2em;
+}
+
+ul.bulleted li:last-of-type,
+ol.numbered li:last-of-type {
+	margin-bottom: 0;
+}
+
+table {
+	border-collapse: collapse;
+	background-color: #fff;
+	background-color: rgba(256,256,256,0.8);
+	border-bottom: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	padding: 10px;
+}
+
+thead th {
+	color: #fff;
+	font-weight: bold;
+	background-color: #978e00;
+}
+
+tbody th {
+	background: #f7f7f7;
+}
+
+th, td {
+	padding: 4px 10px 7px;
+	border-top: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	text-align: left;
+}
+
+.tightened-bodycopy {
+	line-height: 1.392307692307692; /* 18.1px / 13px --> ergibt 18px; 18.1 fuer die Berechnung da sonst Rundungsfehler im Browser (dontask) -sb */
+}
+
+.microcopy-bodycopy {
+	font-family: Verdana, "GillSans", sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.smallprint {
+	font-size: 0.8461em;	/* 11px */
+	color: #555;
+}
+
+.descriptivecopy {
+	font-style: italic;
+}
+
+.microcopy {
+	font-size: 11px;
+	line-height: 16px;
+}
+
+.microcopy-light {
+	color: #666;
+}
+
+.expandable-text {
+	overflow: hidden;
+}
+
+.highlighted {
+	background-color: #FDFDE9;
+}
+
+.highlighted-block {
+    display: inline-block;
+    padding: 1px 3px;
+	background-color: #FDFDE9;
+    margin-bottom: 8px;
+    padding-left: 40px;
+}
+
+.highlight-white {
+    display: inline-block;
+    padding: 3px 5px;
+    border: 1px dashed #dedede;
+    background: #fff;
+}
+
+.marked-succeeded {
+	padding-left: 16px;
+	background: url(../img/icons/check_alt_12x12_ccd527.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.marked-failed {
+	color: #ad2a26;
+	padding-left: 16px;
+	background-image: url(../img/icons/x_alt_12x12_ad2a26.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.marked-pending {
+	padding-left: 16px;
+	background-image: url(../img/icons/clock_12x12_ffa567.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.highlight-in-h1 {
+	color: #333;
+}
+
+.block {
+	display: block;
+}
+
+.pdng-top-2 { padding-top: 2px; }
+.pdng-top-3 { padding-top: 3px; }
+.pdng-top-6 { padding-top: 6px; }
+.pdng-top-11 { padding-top: 11px; }
+.pdng-top-17 { padding-top: 17px; }
+.pdng-top-22 { padding-top: 22px; }
+.pdng-top-33 { padding-top: 33px; }
+.pdng-top-44 { padding-top: 44px; }
+.pdng-top-55 { padding-top: 55px; }
+.pdng-top-66 { padding-top: 66px; }
+
+.mrgn-top-11 { margin-top: 11px; }
+.mrgn-top-22 { margin-top: 22px; }
+.mrgn-top-33 { margin-top: 33px; }
+.mrgn-top-44 { margin-top: 44px; }
+.mrgn-top-55 { margin-top: 55px; }
+
+.mrgn-btm-2 { margin-bottom: 2px; }
+.mrgn-btm-3 { margin-bottom: 3px; }
+.mrgn-btm-6 { margin-bottom: 6px; }
+.mrgn-btm-11 { margin-bottom: 11px; }
+.mrgn-btm-17 { margin-bottom: 17px; }
+.mrgn-btm-22 { margin-bottom: 22px; }
+.mrgn-btm-33 { margin-bottom: 33px; }
+.mrgn-btm-44 { margin-bottom: 44px; }
+.mrgn-btm-55 { margin-bottom: 55px; }
+
+.pull-up-22 { margin-top: -22px; }
+
+blockquote {
+	margin-left: 1em;
+	padding-left: 1.5em;
+	border-left: 1px solid #978e00;
+	font-style: italic;
+}
+
+.XStandardImageLeft {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 11px;
+}
+
+.XStandardImageRight {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 11px;
+}
+
+.nowrap-ellipsis {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/* SITE-MARGINALIA */
+
+.site-marginalia {
+	font-size: 0.8461em;
+	color: #555;
+	line-height: 1.5454;
+}
+
+.site-marginalia h4 {
+	font-size: 1.4545em;
+	margin-bottom: 11px;
+}
+
+.site-marginalia h5 {
+	margin-top: 11px;
+}
+
+.site-marginalia .smallprint {
+	font-size: 1em;
+}
+

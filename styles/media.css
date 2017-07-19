@@ -1,0 +1,23 @@
+
+/* DOCUMENT-IMAGES */
+
+.document-images li {
+	margin-bottom: 1.5em;
+}
+
+
+
+/* DOCUMENT-DOWNLOADS */
+
+.document-downloads ul {
+	margin-top: 11px;
+}
+
+.document-downloads li {
+	margin-bottom: 1.5em;
+	padding: 0.25em 0 0 22px;
+}
+
+.document-downloads li .download-helper {
+	margin-left: -22px;
+}

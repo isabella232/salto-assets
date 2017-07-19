@@ -1,0 +1,26 @@
+
+.document-comments {
+	clear: both;  /* falls das letzte Content-Element gefloated ist (z.B. ein Bild) */
+	margin-top: 44px;
+	padding-top: 11px;
+	border-top: 4px solid #eee;
+}
+
+.comment {
+	margin-top: 22px;
+	padding-top: 11px;
+	border-top: 1px solid #bbb; 
+}
+
+.comment .comment-meta {
+	margin-bottom: 5px;
+}
+
+.comment h4 {
+	margin-bottom: 11px;
+}
+
+.add-comment,
+.subscription {
+	margin-top: 22px;
+}

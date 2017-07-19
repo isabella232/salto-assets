@@ -1,0 +1,10 @@
+
+.targeting {
+	border: 1px solid #fff;
+}
+
+.targeting-hover {
+	background-color: #f9f9f9;
+	border-color: #eee;
+	cursor: pointer;
+} 

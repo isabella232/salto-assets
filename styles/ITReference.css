@@ -1,0 +1,45 @@
+
+	br {
+		clear: left;
+	}
+	
+	tr.ITReferenceFieldRow small {
+		display: none;
+	}
+	
+	div.ITReferenceUserInterface {
+		float: left;
+	}
+	
+	div.ITReferenceUserInterface select {
+		display: block;
+		width: 150px !important;
+		float: left;
+	}
+	
+	div.ITReferenceUserInterface select.originalSelectField {
+		display: none;
+	}
+	
+	div.ITReferenceUserInterface div.buttonbar {
+		float: left;
+		height: 50px;
+		width: 30px;
+		text-align: center;
+	}
+	
+	div.ITReferenceUserInterface button {
+		margin: 0 auto;
+		display: block;
+		width: 25px;
+		height: 25px;
+		text-align: center;
+		padding: 0;
+	}
+	
+	div.ITReferenceUserInterface button img {
+		width: 16px;
+		height: 16px;
+		margin: 0;
+		padding: 0;
+	}

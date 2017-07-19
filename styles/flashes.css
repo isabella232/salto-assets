@@ -1,0 +1,33 @@
+
+.flash {
+	border: 1px solid #a4c1ec;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.flash.failure, .flash-failure {
+	border-color: #f97e84;
+}
+
+.flash.success, .flash-success,
+.flash.notice, flash-notice  {
+	background-color: #fdfde9;
+	border-color: #ccd527; 
+}
+
+.flash.notice, flash-notice {
+	padding-left: 15px;
+	background-image: none;
+}
+
+.flash.notice h2, flash-notice h2 {
+	color: #333;
+}
+
+.flash.warning, .flash-warning {
+	background-image: url(../img/icon-warning.png);
+	background-color: #fdfde9;
+	border-color: #ffab71;
+}

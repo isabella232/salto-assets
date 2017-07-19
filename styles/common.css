@@ -1,0 +1,871 @@
+
+.wayfinder {
+    padding-bottom: 16px;
+}
+
+/* ************************* tool LAYOUT ************************* */
+
+.tool-content {
+	margin: 30px 20px 20px;
+	padding: 0 10px;
+}
+
+.tool-content-twocol {
+	background: url(../img/main-col-bg.png) repeat-y 10px top;
+}
+
+.tool-marginalia-detail {
+	width: 380px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.tool-content-twocol .main-col {
+	float: left;
+	width: 500px;
+	margin-right: 80px;
+}
+
+.tool-content-twocol .aside {
+	float: left;
+	width: 320px;
+	margin-bottom: 33px;
+}
+
+.tool-item-wide .aside {
+	width: 300px;
+}
+
+.fontface .tool-content h1 {
+	font-family: SansationRegular;
+	line-height: 1.2;
+}
+
+.tool-content h2,
+.tool-content .h2 {
+	font-weight: normal;
+}
+
+
+/* Downloads */
+
+.downloads {
+	clear: left;
+	margin-top: 1.5em;
+}
+
+.downloads h3 {
+	margin-bottom: 0.5em;
+}
+
+
+
+/* SUCHE */
+
+.search-filters {
+	margin-bottom: 11px;
+}
+
+.tool-search-result .search-results-list {
+	width: 100%;
+}
+
+.result-container {
+	margin-bottom: 33px;
+}
+
+.collapsed-search .top-aligned-labels .fieldtype-CheckboxField label,
+.tool-content .top-aligned-labels .fieldtype-CheckboxField label {
+	width: 93%;
+	float: right;
+}
+
+.collapsed-search .top-aligned-labels .fieldtype-CheckboxField .field,
+.tool-content .top-aligned-labels .fieldtype-CheckboxField .field  {
+	width: 20px;
+}
+
+
+/* TAGCLOUD */
+
+.tag-cloud {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 22px;
+	float: left;
+	width: 95%;
+}
+
+.tag-cloud .tag {
+	padding: 0;
+	margin: 0;
+	margin-right: 1em;
+	float: left;
+	line-height: 25px;
+	white-space: nowrap;
+	background: none;
+	cursor: pointer;
+}
+
+.tag-cloud .tag-selected {
+	color: #978E00;
+	cursor: default;
+}
+
+.tag-cloud .tag-cloud-level-1 { font-size: 85%; }
+.tag-cloud .tag-cloud-level-2 { font-size: 105%; }
+.tag-cloud .tag-cloud-level-3 { font-size: 120%; }
+.tag-cloud .tag-cloud-level-4 { font-size: 135%; }
+.tag-cloud .tag-cloud-level-5 { font-size: 150%; }
+
+
+/* Damit die TagCloud neben der Auswahl steht: */
+
+.tag-selection {
+	float: left;
+	width: 50%;
+}
+
+
+/* UI-Dialog */
+
+.ui-dialog-content .tool-content {
+	margin: 5px 0 10px;
+}
+
+/* Tags / YIA Actions */
+
+.tags {
+	margin-right: 20px;
+	margin-bottom: 33px;
+}
+
+.tags-list {
+	margin-top: 5px;
+	font-family: SansationNormal, "Trebuchet MS", "GillSans", Arial, sans-serif;
+}
+
+.tags-list .tag {
+	line-height: 1.222;
+	margin-bottom: 0.5em;
+}
+
+.actions-list {
+	font-family: SansationNormal, "Trebuchet MS", "GillSans", Arial, sans-serif;
+	color: #555;
+	margin-top: 5px;
+	margin-bottom: 33px;
+}
+
+.actions-list .action-container {
+	margin-bottom: 0.5em;
+	line-height: 1.222;
+}
+
+
+
+/* TOOLBAR */
+
+.quick-login {
+	text-align: right;
+}
+
+
+/* RSS Headlines */
+
+.feed-16,
+.feed-28 {
+	position: relative;
+}
+
+.feed-16 {
+	padding-right: 30px;
+}
+
+.feed-28 {
+	padding-right: 42px;
+}
+
+.rss-link {
+	display: inline-block;
+	line-height: 1;
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -9999px;
+}
+
+.feed-28 .rss-link {
+	width: 28px;
+	height: 28px;
+	background-image: url(../img/feed-icon-28x28-bw.png);
+}
+
+.feed-28 .rss-link:hover,
+.feed-28 .rss-link:focus {
+	background-image: url(../img/feed-icon-28x28.png);
+}
+
+.feed-16 .rss-link {
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/feed-icon-16x16-bw.png);
+}
+
+.feed-16 .rss-link:hover,
+.feed-16 .rss-link:focus {
+	background-image: url(../img/feed-icon-16x16.png);
+}
+
+
+
+/* ------- ENHANCEMENTS ------- */
+
+.boxshadow .top-shadow-inset {
+	-webkit-box-shadow: inset 0px 2px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow: inset 0px 2px 2px rgba(0,0,0,0.1);
+	box-shadow: inset 0px 2px 2px rgba(0,0,0,0.1);
+}
+
+.text-shadow {
+	text-shadow: 1px 1px 3px #eee;
+}
+
+.boxshadow .box-shadow {
+    -webkit-box-shadow:1px 1px 7px rgba(153, 153, 153, 0.3);
+    -moz-box-shadow:1px 1px 7px rgba(153, 153, 153, 0.3);
+	box-shadow:1px 1px 7px rgba(153, 153, 153, 0.3);
+}
+
+.boxshadow .box-shadow-inout {
+	-moz-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.1), -.1em -.2em 3em rgba(0,0,0,.07) inset;
+	-webkit-box-shadow: 1px 1px 1em rgba(153, 153, 153, 0.1), -.1em -.2em 3em rgba(0,0,0,.07) inset;
+	box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.1), -.1em -.2em 3em rgba(0,0,0,.07) inset;
+}
+
+.boxshadow .box-light-inout {
+	-moz-box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.1), -.1em -.2em 3em rgba(255,255,255,.07) inset;
+	-webkit-box-shadow: 1px 1px 1em rgba(153, 153, 153, 0.1), -.1em -.2em 3em rgba(255,255,255,.07) inset;
+	box-shadow: 1px 1px 7px rgba(153, 153, 153, 0.1), -.1em -.2em 3em rgba(255,255,255,.07) inset;
+}
+
+.text-overflow {
+    /* "overflow" value must be different from "visible" */
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* ------- TOOL STARTSEITE -------------------------------------------------------------------------------------------------- */
+
+.sales-facts {
+	margin-bottom: 44px;
+}
+
+.frontpage-teaser {
+	font-size: 85%;
+}
+
+.frontpage-teaser .h3 {
+	margin-top: 16px;
+}
+
+/* Sonderfall Otlas-Startseite */
+.otlas .frontpage-teaser .h3 {
+	margin-top: 12px;
+}
+
+
+.calls-for-actions {
+	padding-bottom: 11px;
+}
+
+.calls-for-actions .callforaction {
+	height: 3.9em;
+}
+
+.calls-for-actions .callforaction-divider {
+	margin-top: 22px;
+}
+
+.calls-for-actions .double-line {
+	margin-top: 7px;
+}
+
+.facebook {
+	margin-top: 66px;
+}
+
+/* aside */
+
+.tool-item-meta {
+	margin-bottom: 22px;
+	line-height: 1.692307692307692;		/* 22px / 13px */
+}
+
+.frontpage-teaser .tool-item-meta {
+	line-height: 1.447963800904977; /* 16px / 11.05px */
+}
+
+
+/* ------- PROFILE + FRIENDSHIP DASHBOARD -------------------------------------------------------------------------------------------------- */
+
+.manage-details-head {
+	padding-bottom: 22px;
+	margin-bottom: 22px;
+	border-bottom: 1px solid #eee;
+}
+
+.manage-details-head .callforaction {
+	margin: 0 0 22px;
+	float: none;
+}
+
+
+/* MANAGE ENTITIES */
+
+.entity-manage-list {
+	margin-bottom: 33px;
+}
+
+.entity-manage-list .entity-manage-container {
+	padding-bottom: 11px;
+}
+
+.entity-manage-list-tight .entity-manage-container {
+    padding-bottom: 3px;
+}
+
+.entity-manage-action-list .button {
+	float: left;
+	margin-left: 10px;
+}
+
+.entity-manage-action-container {
+	float: left;
+}
+
+.back-to-dashboard-link {
+	float: left;
+	display: inline;
+	margin-top: 9px;
+	margin-left: 22px;
+	font-size: 1em;
+}
+
+.tool-item-compact-preview {
+	border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 11px;
+    margin-bottom: 22px;
+}
+
+.tool-item-compact-preview .tile {
+	width: 460px;
+}
+
+.tool-item-compact-preview .tool-item-meta {
+	width: 268px;
+}
+
+.tool-item-list-preview .tool-item-name {
+	color: #978e00;
+}
+
+
+/* TOOL ITEM */
+
+.tool-item-status {
+	border-bottom: 1px solid #eee;
+}
+
+.tool-item-status-info {
+	background-repeat: no-repeat;
+	background-position: 10px 2px;
+	border: 1px solid transparent;
+    background-color: #fdfde9;
+    border-color: #ccd527;
+}
+
+.tool-item-status-info {
+	padding: 5px 10px 0 50px;
+	margin-bottom: 22px;
+}
+
+.tool-item-status-draft,
+.tool-item-status-unpublished,
+.tool-item-status-hidden,
+.tool-item-status-expired {
+    background-image: url(../img/icon_warning.png);
+}
+
+.tool-item-status-incomplete {
+	background-image: url(../img/icon_sad_face.png);
+}
+
+.tool-item-status-pending {
+	background-image: url(../img/icon_time.png);
+}
+
+.tool-item-status-active {
+	background-image: url(../img/icon_checkmark.png);
+}
+
+.tool-item-status-info h4 {
+	line-height: 2;
+}
+
+.tool-item-status-indicator {
+	color: #978e00;
+}
+
+.tool-item-status-offline {
+	color: #777777;
+}
+
+/* changes requested */
+
+.message,
+.change-request-message {
+	padding: 1em 1.5em;
+	background: #fff;
+}
+
+
+/* application procedures etc. */
+
+.tool-item-padded-container,
+.tool-item-disclaimer,
+.tool-item-annotation-container {
+	padding: 1em 1.5em;
+}
+
+.tool-item-annotation-container,
+.tool-item-disclaimer {
+	border: 1px dashed #dedede;
+}
+
+.tool-item-annotation-container .h3 {
+	margin-top: 0;
+}
+
+
+/* Notifications Box (extends tool-item-annotation-container */
+.emphatic-manage-notifications {
+    background-color: #fdfde9;
+    border-color: #ccd527;
+}
+
+.emphatic-manage-notifications-small {
+    padding: 6px 10px;
+}
+
+/* Profile Editors */
+
+.tool-item-editor img {
+	visibility: hidden;
+}
+
+
+
+/* ------- PROFILE BROWSE VIEW -------------------------------------------------------------------------------------------------- */
+
+.tool-item-category-container,
+.training .tool-item-category {
+	color: #666;
+}
+
+.training .tool-item-category {
+	margin-right: 0.75em;
+}
+
+.tool-item-name {
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+.entity-manage-container .tool-item-lastmod {
+    margin-left: 20px;
+}
+
+.tool-item-compact {
+	position: relative;
+	z-index: 70;
+}
+
+.tool-item-compact .tool-item-name .morelink {
+	font-size: 13px;
+	font-family: Verdana, "GillSans", sans-serif;
+	font-weight: normal;
+}
+
+.tool-item-compact .morelink-standalone {
+	float: right;
+	font-size: 11px;
+}
+
+.tool-search-result .tool-item-reference-heading {
+	background: #ffffff; /* old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* ie */
+	padding: 5px 10px;
+	margin: -10px -10px 15px;
+}
+
+/* used in Training Calendar, Toolbox */
+.tool-item-wide {
+	width: 880px;
+}
+
+.tool-item-wide .tool-item-short-description {
+	float: left;
+	margin-right: 7.5%;
+	width: 62.5%;
+}
+
+.tool-item-wide .tool-item-meta {
+    float: left;
+    width: 30%;
+}
+
+
+
+
+/* -------- tool item reference (TOY: Referenz, Otlas: Projekt) -------- */
+
+.tool-item-references-wrapper {
+	border-top: 3px solid #eee;
+	margin-top: 40px;
+	padding: 15px 0 10px;
+	width: 500px;
+}
+
+.tool-item-references {
+	position: relative;
+	z-index: 69;
+	float: left;
+	width: 350px;
+	background: #fcfcfc;
+	border: 3px solid #e7e7e7;
+	border-left-width: 0;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.tool-item-reference-compact .tool-item-reference-title {
+	font-weight: normal;
+}
+
+.tool-item-reference-meta {
+	margin-bottom: 22px;
+}
+
+.tool-item-reference-description {
+	float: left;
+	width: 70%;
+	margin-right: 4%;
+	margin-bottom: 6px;
+}
+
+.tool-item-reference-container {
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 22px;
+	margin-bottom: 22px;
+}
+
+.tool-item-reference-container:last-of-type {
+    border-bottom-width: 0;
+}
+
+.tool-item-reference-meta,
+.tools-references-2-col .tool-item-reference-meta p {
+	float: left;
+	margin-right: 4%;
+}
+
+.tool-item-reference-meta {
+	width: 50%;
+}
+.tools-references-2-col .tool-item-reference-meta p {
+    width: 65%;
+}
+
+.tools-references-1-col .tool-item-reference-meta,
+.tools-references-2-col .tool-item-reference-meta,
+.tool-item-reference-compact .tool-item-reference-meta {
+	width: 100%;
+}
+
+.tool-item-reference-container .tool-item-reference-meta {
+    width: 50%;
+}
+
+.project-detail-view .tool-item-reference-meta {
+    float: none;
+}
+
+.tools-references-2-col .img-frame-compact {
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+
+.tool-item-reference-referee {
+	width: 40%;
+	float: left;
+	padding-bottom: 17px;
+}
+
+
+
+/* ------- PROFILE DETAIL VIEW -------------------------------------------------------------------------------------------------- */
+
+.getintouch {
+	padding: 10px;
+	background: #f7f7f9;
+	border: 1px solid #efefef;
+	line-height: 1.4;
+}
+
+.tool-item-category .category-name {
+	font-weight: bold;
+}
+
+.tool-item-disclaimer {
+	/* inherits tool-item-padded-container and tool-item-annotation-container */
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	width: 460px;
+	margin-top: 33px;
+}
+
+
+/* ------- ADMIN BACKEND -------------------------------------------------------------------------------------------------- */
+
+.tool-item-administrated-container {
+	background: #fafafa;
+	padding: 15px;
+	border: 1px solid #eee;
+	@include border-radius(4px);
+}
+
+.tool-item-administrated-container .main-col {
+	width: 480px;
+	margin-right: 60px;
+}
+
+.admin-actions {
+	padding: 3px 4px 6px;
+	background: #fafafa;
+	border: 1px solid #eee;
+	@include border-radius(4px);
+}
+
+
+/* search result tabs */
+
+.tool-search-result-tabs-list {
+	background: url(../img/tool-search-result-tabs-list-bg.png) repeat-x left bottom;
+}
+
+.tool-search-result-tabs-list li {
+	position: relative;
+	float: left;
+	margin-right: 11px;
+	padding: 2px 1em 0;
+	border: 1px solid #dedede;
+	border-bottom-width: 0;
+	line-height: 2.538461538461538;
+}
+
+.tool-search-result-tabs-list li.active-tab {
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	padding-top: 0;
+	background: #fefefe;
+}
+
+
+/* Form: Checkbox Hierarchy Selection */
+
+.checkbox-hierarchy-selection-field label {
+	display: inline;
+}
+
+.checkbox-hierarchy-selection-field {
+	height: 150px;
+	overflow: auto;
+	margin-right: 5px;
+}
+
+.checkbox-hierarchy-selection-field ul {
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0;
+}
+
+.checkbox-hierarchy-selection-field li {
+	padding-left: 10px;
+}
+
+.checkbox-hierarchy-selection-field li ul {
+	margin-left: 2em;
+}
+
+.checkbox-hierarchy-selection-field li.tree {
+	padding-left: 0;
+}
+
+.checkbox-hierarchy-selection-field li.tree.closed ul {
+	display: none;
+}
+
+.checkbox-hierarchy-expansion-handle {
+	float: left;
+	width: 2em;
+	height: 1.6em;
+	overflow: hidden;
+	background: url(../img/tree_minus.gif) no-repeat center center;
+}
+
+.checkbox-hierarchy-expansion-handle span {
+	display: none;
+}
+
+.checkbox-hierarchy-collapsed .checkbox-hierarchy-expansion-handle {
+	background-image: url(../img/tree_plus.gif);
+}
+
+.info-tooltip-icon {
+    line-height: 1;
+    top: 2px;
+    position: relative;
+    cursor: help;
+}
+
+input.cke_dialog_ui_input_text, input.cke_dialog_ui_input_password, textarea.cke_dialog_ui_input_textarea {
+    font-size: 16px !important;
+    height: 1.6em !important;
+}
+
+
+/* ------- Hybrid Search & Browse ------- */
+
+.faceted-search-form {
+    float: left;
+    width: 250px;
+    margin-right: 48px;
+    border: 1px solid #eee;
+}
+
+.faceted-search-result-list .search-result-list-navigation,
+.faceted-search-result-list .tool-search-result {
+    float: left;
+    width: 620px;
+}
+
+.faceted-search-result-list .tool-search-result .tile {
+    width: 580px;
+    padding-bottom: 0;
+}
+
+/* faceted search form */
+
+.faceted-search-form .legend,
+.faceted-search-form .legend-subtext {
+    padding-left: 10px;
+}
+
+.faceted-search-form .row {
+    padding: 11px 0;
+}
+
+.faceted-search-form .legend-star {
+    display: none;
+}
+
+.faceted-search-form .fieldset-content {
+    width: 230px;
+}
+
+.faceted-search-form input.text,
+.faceted-search-form input[type="text"],
+.faceted-search-form input.password,
+.faceted-search-form input.url,
+.faceted-search-form select,
+.faceted-search-form textarea {
+    font-size: 11px;
+    width: 200px;
+}
+
+.faceted-search-form select.superwide {
+    width: 220px;
+}
+
+.faceted-search-form .label {
+    font-size: 1em;
+    color: #444;
+}
+
+.faceted-search-form .range-projects-toggle-row .inline-field {
+    width: 100%;
+    margin-right: 0;
+}
+
+.faceted-search-form .inline-label {
+    font-size: 11px;
+}
+
+.faceted-search-form .tag-cloud {
+    width: 100%;
+    margin-bottom: 11px;
+}
+
+.faceted-search-form .tag-selection {
+    float: none;
+    width: 100%;
+}
+
+.faceted-search-form .tag-cloud .tag {
+    font-family: Verdana, "GillSans", sans-serif;
+}
+
+.faceted-search-form .tag {
+    font-size: 11px !important;
+}
+
+.faceted-search-form .date-select-field {
+    width: 230px;
+    margin-right: 0;
+}
+
+.faceted-search-form .date-select-field label {
+    width: 4em;
+    float: left;
+    margin-right: 10px;
+}
+
+.faceted-search-form .date-select-field select {
+    width: 9em;
+}
+
+.faceted-search-form .fieldset .button {
+    background: none;
+    padding: 0;
+    text-align: left;
+    text-shadow: none;
+    border-width: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -khtml-border-radius: 0;
+    border-radius: 0;
+    text-decoration: underline;
+}
+
+.faceted-search-actions {
+    padding: 10px;
+}
