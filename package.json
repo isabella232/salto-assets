@@ -1,0 +1,9 @@
+{
+  "name": "salto-assets",
+  "version": "1.0.0",
+  "description": "Shared assets for SALTO Microservices",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webfactory/salto-assets.git"
+  }
+}
