@@ -1,3 +1,4 @@
+// Only used by Call for Trainers!
 $(function () {
 	$('textarea.fx-wysiwyg').each(function () {
 		CKEDITOR.replace($(this).attr('name'), {
