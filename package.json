@@ -1,6 +1,6 @@
 {
   "name": "salto-assets",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Shared assets for SALTO Microservices",
   "repository": {
     "type": "git",
