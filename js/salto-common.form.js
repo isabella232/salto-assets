@@ -274,10 +274,13 @@ var initializeForm = function(context) {
         });
     });
 
-    context.find('.fx-date').datepicker({
-        dateFormat: 'yy-mm-dd',
-        yearRange: 'c-100:c+10'
-    });
+    if (typeof $.datepicker !== 'undefined') {
+        context.find('.fx-date').datepicker({
+            dateFormat: 'yy-mm-dd',
+            yearRange: 'c-100:c+10'
+        });
+    }
+
 
     context.find('.fx-hide-next').each(function() {
         var row = $(this);

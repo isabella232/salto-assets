@@ -56,14 +56,16 @@ $(function() {
 		});
 		$('.fx-form-hidden').show();
 
-		form.find('.fx-datepicker').datepicker({
-			dateFormat: 'dd.mm.yy',
-            yearRange: 'c-100:c+10',
-			firstDay: 1,
-			showAnim: 'slideDown',
-			changeMonth: true,
-			changeYear: true
-		});
+        if (typeof $.datepicker !== 'undefined') {
+            form.find('.fx-datepicker').datepicker({
+                dateFormat: 'dd.mm.yy',
+                yearRange: 'c-100:c+10',
+                firstDay: 1,
+                showAnim: 'slideDown',
+                changeMonth: true,
+                changeYear: true
+            });
+        }
 
 	});
 	
