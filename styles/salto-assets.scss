@@ -1,0 +1,14 @@
+// Import SALTO microservice assets in old (legacy/monolith) order
+@import "TO_BE_AUFRAEUMED";
+@import "wfui.flashes";
+@import "flashes";
+@import "media";
+@import "../rating/jquery.rating";
+@import "rating";
+@import "comments";
+@import "targeting";
+@import "ITReference";
+@import "tabs";
+@import "form-rework";
+@import "content-scale-down";
+@import "common";
