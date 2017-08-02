@@ -1,0 +1,68 @@
+
+.psd-search-result,
+.psd-search-result .ui-tabs-panel {
+	padding: 0;
+}
+
+.psd-search-result .ui-tabs-nav {
+	background: none;
+	border-width: 0;
+	border-bottom-width: 1px;
+}
+
+.psd-search-result .ui-tabs-nav li {
+	margin-right: 10px;
+}
+
+.ui-tabs .ui-corner-all {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-khtml-border-radius: 0;
+}
+
+.ui-widget-content.psd-search-result {
+	border-width: 0;
+	background: none;
+}
+
+.psd-search-result .ui-widget-header {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.psd-search-result .ui-state-active {
+	background: #fff;
+	border-color: #ccc;
+}
+
+.psd-search-result .ui-state-active  a {
+	color: #333;
+}
+
+
+/* Dialog */
+
+.ui-dialog {
+	border-top: 6px solid #ccd527;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-khtml-border-radius: 0;
+}
+
+.ui-dialog .ui-widget-header {
+	font-size: 1em;				
+	line-height: 1.3;
+	top: -1px;
+	padding: 10px 0 5px 10px;
+	background: #eee;
+	border-width: 0;
+	margin-bottom: 6px;
+}
+
+.fontface .ui-dialog .ui-widget-header {
+	font-family: SansationBold;
+	font-weight: normal;
+	top: 0;
+}
