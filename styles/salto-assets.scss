@@ -1,5 +1,7 @@
 // Import SALTO microservice assets in old (legacy/monolith) order
 @import "TO_BE_AUFRAEUMED";
+@import "lib/jquery-ui/salto-youth/jquery-ui";
+@import "lib/jquery-ui/salto-youth/overwrites";
 @import "wfui.flashes";
 @import "flashes";
 @import "media";
