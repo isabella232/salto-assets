@@ -1,0 +1,46 @@
+.salto-icon {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    position: relative;
+    top: 1px;
+
+    svg {
+        width: auto;
+        max-width: 0.75em;
+        height: 0.75em;
+        fill: currentColor;
+    }
+
+    path {
+        fill: currentColor;
+    }
+}
+
+.salto-icon--inline-start {
+    margin-right: 5px;
+}
+
+.salto-icon--inline-end {
+    margin-left: 5px;
+}
+
+.salto-icon--accessible {
+    align-items: center;
+    background-color: #932382;
+    border-radius: 9999em;
+    box-sizing: border-box;
+    font-size: 14px; /* increase font-size for bigger em-based icon size */
+    display: inline-flex;
+    color: white;
+    height: 1.35em;
+    justify-content: center;
+    top: 0;
+    width: 1.35em;
+
+    svg {
+        max-width: 0.9em;
+        height: 0.9em;
+    }
+}
+
