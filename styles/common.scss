@@ -37,7 +37,6 @@
 }
 
 .fontface .tool-content h1 {
-	font-family: SansationRegular;
 	line-height: 1.2;
 }
 
@@ -109,7 +108,7 @@
 }
 
 .tag-cloud .tag-selected {
-	color: #978E00;
+	color: #0077c8;
 	cursor: default;
 }
 
@@ -143,7 +142,6 @@
 
 .tags-list {
 	margin-top: 5px;
-	font-family: SansationNormal, "Trebuchet MS", "GillSans", Arial, sans-serif;
 }
 
 .tags-list .tag {
@@ -152,7 +150,6 @@
 }
 
 .actions-list {
-	font-family: SansationNormal, "Trebuchet MS", "GillSans", Arial, sans-serif;
 	color: #555;
 	margin-top: 5px;
 	margin-bottom: 33px;
@@ -370,7 +367,7 @@
 }
 
 .tool-item-list-preview .tool-item-name {
-	color: #978e00;
+	color: #0077c8;
 }
 
 
@@ -384,8 +381,8 @@
 	background-repeat: no-repeat;
 	background-position: 10px 2px;
 	border: 1px solid transparent;
-    background-color: #fdfde9;
-    border-color: #ccd527;
+    background-color: #fff7d6;
+    border-color: #0077c8;
 }
 
 .tool-item-status-info {
@@ -417,7 +414,7 @@
 }
 
 .tool-item-status-indicator {
-	color: #978e00;
+	color: #0077c8;
 }
 
 .tool-item-status-offline {
@@ -453,8 +450,8 @@
 
 /* Notifications Box (extends tool-item-annotation-container */
 .emphatic-manage-notifications {
-    background-color: #fdfde9;
-    border-color: #ccd527;
+    background-color: #fff7d6;
+    border-color: #0077c8;
 }
 
 .emphatic-manage-notifications-small {
@@ -496,7 +493,6 @@
 
 .tool-item-compact .tool-item-name .morelink {
 	font-size: 13px;
-	font-family: Verdana, "GillSans", sans-serif;
 	font-weight: normal;
 }
 
@@ -828,10 +824,6 @@ input.cke_dialog_ui_input_text, input.cke_dialog_ui_input_password, textarea.cke
 .faceted-search-form .tag-selection {
     float: none;
     width: 100%;
-}
-
-.faceted-search-form .tag-cloud .tag {
-    font-family: Verdana, "GillSans", sans-serif;
 }
 
 .faceted-search-form .tag {
