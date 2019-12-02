@@ -39,13 +39,12 @@ legend {
 	display: block;
 	font-size: 1.3847em;		/* 16px */
 	line-height: 1.2222;		/* 22px */ 
-	color: #978e00;
+	color: #0077c8;
 	top: -2px;
 	padding-bottom: 0.5em;
 }
 
 .fontface legend {
-	font-family: SansationRegular;
 	top: 0;
 }
 
@@ -90,7 +89,6 @@ label {
 /* Schrift für textarea zunächst resetten */
 
 textarea {
-	font-family: Verdana, "GillSans", sans-serif;
 	font-size: 1em;
 }
 
@@ -164,7 +162,7 @@ form .groupname-submit {
 	border: 1px solid #bbb;
 	text-shadow: 1px 1px 1px #fff;
 	font-weight: normal;
-	color: #932382;
+	color: #c73485;
 	padding: 1px 8px 3px 8px;
 	text-align: center;
 	background-color: #f5f5f5;
@@ -173,7 +171,7 @@ form .groupname-submit {
 
 .button:hover,
 .button:focus {
-	border-color: #932382;
+	border-color: #c73485;
 	cursor: pointer;
 	text-decoration: none;
 }
@@ -222,7 +220,6 @@ form .groupname-submit {
 	width: 200px;
 	float: left;
 	line-height: 1.2;
-	font-family: SansationRegular;
 	font-size: 1.3em;
 	text-align: center;
 	padding-top: 8px;
@@ -244,9 +241,9 @@ form .groupname-submit {
 }
 
 .active-state-button {
-	background: #932382;
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#932382', endColorstr='#932382',GradientType=0 ); /* ie */
-	border-color: #932382;
+	background: #c73485;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c73485', endColorstr='#c73485',GradientType=0 ); /* ie */
+	border-color: #c73485;
 	text-shadow: none;
 	color: #f5f5f5;
 	font-weight: normal;
