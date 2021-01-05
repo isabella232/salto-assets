@@ -7,10 +7,6 @@ $(function() {
 var initializeForm = function(context) {
 
     context.find('.fx-form-generator').each(function() {
-	    /* AddThis-Dropdown funktioniert nicht mit dem form-generator im IE9, ist hier aber ohnehin nicht sinnvoll (Case 13484) */
-	    $('.fx-addthis-button').remove();
-
-
 	    var row = $(this);
 	    
 
