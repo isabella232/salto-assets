@@ -15,6 +15,8 @@ $(function() {
                     if (link.triggerHandler('click') !== false)
                         window.location.href = link.attr('href');
             });
+            targetingZone.removeClass('targeting');
+            targetingZone.addClass('targetted');
         } else {
             targetingZone.attr('class', targetingZone.attr('class').replace(/targeting[-\w]*/g, ''));
         }
