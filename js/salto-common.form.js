@@ -299,7 +299,7 @@ var initializeForm = function(context) {
         var row = $(this);
         var text = row.find('textarea');
         var counter = row.find('.counter');
-        var maxCharacters = parseInt(counter.text());
+        var maxCharacters = parseInt(text.attr('maxLength'));
 
         var charactersLeft;
 
